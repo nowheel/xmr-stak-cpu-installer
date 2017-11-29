@@ -9,34 +9,31 @@ DONATE XMR:
 USAGE:
 :~# ./install_mining_server {WALLET} {PASSWORD} {+NAMEOFWORKER} {POOL} {PERCENTAGEOFCPULIMIT}"
 
-
 this script run and tested with xmrpool.eu, it's for 2 core vps.
 
-for use more core edit /root/xmr-stack-cpu/bin/config.txt and comment # or delete this line:
--------------------------
+For use more core edit /root/xmr-stack-cpu/bin/config.txt and comment # or delete this line:
+  
   [
-    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 0 },
-    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 1 },
-  ],
--------------------------
-change with:
--------------------------
+     { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 0 },
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 1 },
+    ],
+
+Change with:
   null,
--------------------------
-run manually the miner:
+
+Run manually the miner:
 ./root/miner
-copy the suggestion and write in config.txt like this
--------------------------
+copy the suggestion and write in config.txt like this:
 "cpu_threads_conf" :
 [
     { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : false },
 ],
--------------------------
 
 
 
 
 KNOWED ISSUE:
+POOL name_of_worker:
 - check if pool have sign like "wallet.nameofworker", 
     -yes? put it in NAMEOFWORKER field.
     -no? for other pool leave blank "" the NAMEOFWORKER field.
