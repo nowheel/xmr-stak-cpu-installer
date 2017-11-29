@@ -1,27 +1,13 @@
 # xmr-stack-cpu-installer
-installer for ubuntu 16.04/16.10 server.
+# installer for ubuntu 16.04/16.10 server.
 
----------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------
--------------THIS SCRIPT DOWNLOAD, COMPILE, INSTALL AND MAKE SETTING OF XMR-STACK-CPU--------------
------------------------------AND INSTALL CPULIMIT FOR LIMIT CPU USAGE------------------------------
----------------------------FOR A SIMPLE VPS RUNNING UBUNTU 16.04 SERVER----------------------------
----------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------
--------------------------------------------DONATE XMR----------------------------------------------
---48zHnevytL2Rbhf38Ma5msRtDeXvJ8d8pHCAw3NMdNd9iEGhnnnSZC1cfxdtVx32xN6BMDdfgDZHaaianRA831PyLPcy5tk--
----------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------
--------------------------------------------by NoWheel----------------------------------------------
+THIS SCRIPT DOWNLOAD, COMPILE, INSTALL AND MAKE SETTING OF XMR-STACK-CPU AND INSTALL CPULIMIT FOR LIMIT CPU USAGE FOR A SIMPLE VPS RUNNING UBUNTU 16.04 SERVER
 
+DONATE XMR:
+48zHnevytL2Rbhf38Ma5msRtDeXvJ8d8pHCAw3NMdNd9iEGhnnnSZC1cfxdtVx32xN6BMDdfgDZHaaianRA831PyLPcy5tk
 
 USAGE:
-
 :~# ./install_mining_server {WALLET} {PASSWORD} {+NAMEOFWORKER} {POOL} {PERCENTAGEOFCPULIMIT}"
-
-
 
 
 this script run and tested with xmrpool.eu, it's for 2 core vps.
