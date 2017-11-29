@@ -1,11 +1,9 @@
 # **xmr-stack-cpu-installer**
 ## **installer for ubuntu 16.04/16.10 server.**
 
-###THIS SCRIPT DOWNLOAD, COMPILE, INSTALL AND MAKE SETTING OF XMR-STACK-CPU AND INSTALL CPULIMIT FOR LIMIT CPU USAGE FOR A SIMPLE VPS RUNNING UBUNTU 16.04 SERVER
 
 
-
-
+### THIS SCRIPT DOWNLOAD, COMPILE, INSTALL AND MAKE SETTING OF XMR-STACK-CPU AND INSTALL CPULIMIT FOR LIMIT CPU USAGE FOR A SIMPLE VPS RUNNING UBUNTU 16.04 SERVER
 
 #### **USAGE**:
 > _:~# ./installminingserver {WALLET} {PASSWORD} {+NAMEOFWORKER} {POOL} {PERCENTAGEOFCPULIMIT}"_
@@ -39,9 +37,12 @@
 
 
 
+##### --------------------------------------------------------------------------------------------
 
 #### KNOWED ISSUE:
 POOL name_of_worker:
-- check if pool have sign like "wallet.nameofworker", 
-    -yes? put it in NAMEOFWORKER field.
-    -no? for other pool leave blank "" the NAMEOFWORKER field.
+- check if pool have sign like "wallet.nameofworker",
+
+	yes? put it in NAMEOFWORKER field.
+	
+    no? for other pool leave blank "" the NAMEOFWORKER field.
