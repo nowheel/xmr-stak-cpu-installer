@@ -16,29 +16,25 @@
 
 #### **this script run and tested with xmrpool.eu, it's for 2 core vps.**
 
-
+##### --------------------------------------------------------------------------------------------
 #### **For use more core edit /root/xmr-stack-cpu/bin/config.txt and comment # or delete this line:**
   
- _[
+ > _[
      { "lowpowermode" : false, "noprefetch" : true, "affinetocpu" : 0 },
       { "lowpowermode" : false, "noprefetch" : true, "affinetocpu" : 1 },
     ],_
 
 ###### **Change with:**
- _null,_
-
+> _null,_
 
 ###### **Run manually the miner:**
 
-_./root/miner_
-
+> _./root/miner_
 ###### copy the suggestion and write in config.txt like this:
 "cpu_threads_conf" :
-
-_[
+> _[
     { "lowpowermode" : false, "noprefetch" : true, "affinetocpu" : false },
 ],_
-
 
 
 
