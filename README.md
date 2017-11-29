@@ -8,7 +8,7 @@
 
 
 #### **USAGE**:
-_:~# ./installminingserver {WALLET} {PASSWORD} {+NAMEOFWORKER} {POOL} {PERCENTAGEOFCPULIMIT}"_
+> _:~# ./installminingserver {WALLET} {PASSWORD} {+NAMEOFWORKER} {POOL} {PERCENTAGEOFCPULIMIT}"_
 
 
 
