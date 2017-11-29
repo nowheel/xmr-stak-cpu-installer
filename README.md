@@ -24,15 +24,15 @@ _:~# ./installminingserver {WALLET} {PASSWORD} {+NAMEOFWORKER} {POOL} {PERCENTAG
       { "lowpowermode" : false, "noprefetch" : true, "affinetocpu" : 1 },
     ],_
 
-#### **Change with:**
+###### **Change with:**
  _null,_
 
 
-#### **Run manually the miner:**
+###### **Run manually the miner:**
 
 _./root/miner_
 
-#### copy the suggestion and write in config.txt like this:
+###### copy the suggestion and write in config.txt like this:
 "cpu_threads_conf" :
 
 _[
