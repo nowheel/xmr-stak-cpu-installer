@@ -40,10 +40,10 @@
 ##### --------------------------------------------------------------------------------------------
 #### **For use more core edit /root/xmr-stack-cpu/bin/config.txt and comment # or delete this line:**
 
-  [
-     { "lowpowermode" : false, "noprefetch" : true, "affinetocpu" : 0 },
-      { "lowpowermode" : false, "noprefetch" : true, "affinetocpu" : 1 },
-    ],
+  	[
+  	   { "lowpowermode" : false, "noprefetch" : true, "affinetocpu" : 0 },
+  	    { "lowpowermode" : false, "noprefetch" : true, "affinetocpu" : 1 },
+  	  ],
 
 ###### **Change with:**
 	 null,
