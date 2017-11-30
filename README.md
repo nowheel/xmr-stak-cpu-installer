@@ -6,7 +6,10 @@
 ### THIS SCRIPT DOWNLOAD, COMPILE, INSTALL AND MAKE SETTING OF XMR-STACK-CPU AND INSTALL CPULIMIT FOR LIMIT CPU USAGE FOR A SIMPLE VPS RUNNING UBUNTU 16.04 SERVER
 
 #### **USAGE**:
-> _:~# ./xmr-stack-cpu_ubuntu {WALLET} {PASSWORD} {+NAMEOFWORKER} {POOL} {PERCENTAGEOFCPULIMIT}"_
+	 :~# ./xmr-stack-cpu_ubuntu {WALLET} {PASSWORD} {+NAMEOFWORKER} {POOL} {PERCENTAGEOFCPULIMIT}"
+
+##### **like this**: 
+	 :~# ./xmr-stack-cpu_ubuntu 48zHnevytL2Rbhf38Ma5msRtDeXvJ8d8pHCAw3NMdNd9iEGhnnnSZC1cfxdtVx32xN6BMDdfgDZHaaianRA831PyLPcy5tk x +vps5 xmrpool.eu 3333 3
 
 
 
@@ -17,22 +20,22 @@
 ##### --------------------------------------------------------------------------------------------
 #### **For use more core edit /root/xmr-stack-cpu/bin/config.txt and comment # or delete this line:**
   
- > _[
+  [
      { "lowpowermode" : false, "noprefetch" : true, "affinetocpu" : 0 },
       { "lowpowermode" : false, "noprefetch" : true, "affinetocpu" : 1 },
-    ],_
+    ],
 
 ###### **Change with:**
-> _null,_
+	 null,
 
 ###### **Run manually the miner:**
 
-> _./root/miner_
+	 ./root/miner
 ###### copy the suggestion and write in config.txt like this:
-"cpu_threads_conf" :
-> _[
-    { "lowpowermode" : false, "noprefetch" : true, "affinetocpu" : false },
-],_
+	"cpu_threads_conf" :
+		 [
+		    { "lowpowermode" : false, "noprefetch" : true, "affinetocpu" : false },
+		],
 
 
 
