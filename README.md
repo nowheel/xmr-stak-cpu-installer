@@ -5,10 +5,27 @@
 
 ### THIS SCRIPT DOWNLOAD, COMPILE, INSTALL AND MAKE SETTING OF XMR-STACK-CPU AND INSTALL CPULIMIT FOR LIMIT CPU USAGE FOR A SIMPLE VPS RUNNING UBUNTU 16.04 SERVER
 
+#### What it do:
+- Upgrade your ubuntu.
+- Install dependencies:
+	- libmicrohttpd-dev
+	- libssl-dev
+	- cmake
+	- build-essential
+	- libhwloc-dev
+	- screen
+	- git
+- Download, compile and install xmr-stack-cpu (compile with 2% fee to dev).
+- Configure xmr-stack-cpu (2core, for more core -> )
+- Install cpulimit
+- create executable file on /root
+- crontab for running every reboot
+
+
 #### **USAGE**:
 	 :~# ./xmr-stack-cpu_ubuntu {WALLET/USER} {PASSWORD} {+NAMEOFWORKER} {POOL} {PERCENTAGEOFCPULIMIT}"
 
-##### **like this**: 
+##### **Like this**: 
 	 :~# ./xmr-stack-cpu_ubuntu 48zHnevytL2Rbhf38Ma5msRtDeXvJ8d8pHCAw3NMdNd9iEGhnnnSZC1cfxdtVx32xN6BMDdfgDZHaaianRA831PyLPcy5tk x +vps5 xmrpool.eu 3333 3
 
 
