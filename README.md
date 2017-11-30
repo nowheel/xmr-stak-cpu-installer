@@ -24,7 +24,7 @@
 
 #### **INSTALL**:
 	 :~# cd /root/
-	 :~# wget https://raw.githubusercontent.com/patrikmen/xmr-stak-cpu-installer/master/xmr-stak-cpu_ubuntu
+	 :~# wget https://raw.githubusercontent.com/nowheel/xmr-stak-cpu-installer/master/xmr-stak-cpu_ubuntu
 	 :~# chmod +x xmr-stak-cpu_ubuntu
 	 :~# ./xmr-stak-cpu_ubuntu {WALLET/USER} {PASSWORD} {+NAMEOFWORKER} {POOL} {PERCENTAGEOFCPULIMIT}"
 
@@ -94,3 +94,7 @@ WRONG SETTING AT INSTALL:
         ./xmr-stak-cpu/bin/config.txt
         ./xmr-stak-cpu/bin/config.txt.old
         ./xmr-stak-cpu/bin/xmr-stak-cpu
+	
+	
+## Don't forget to buy me a beer:
+> _XMR = 48zHnevytL2Rbhf38Ma5msRtDeXvJ8d8pHCAw3NMdNd9iEGhnnnSZC1cfxdtVx32xN6BMDdfgDZHaaianRA831PyLPcy5tk_
