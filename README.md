@@ -23,7 +23,7 @@
 
 
 #### **INSTALL**:
-	 :~# cd /rooot/
+	 :~# cd /root/
 	 :~# ./xmr-stack-cpu_ubuntu {WALLET/USER} {PASSWORD} {+NAMEOFWORKER} {POOL} {PERCENTAGEOFCPULIMIT}"
 
 ##### **Like this**:
