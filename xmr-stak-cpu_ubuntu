@@ -145,7 +145,7 @@ chmod +x miner
 chmod +x cpulimit-miner
 
 echo "---SET EXECUTABLE RUNNING AT REBOOT---"
-(crontab -l 2>/dev/null; echo "@reboot screen -d -m /root/cpulimit_miner")| crontab -
+(crontab -l 2>/dev/null; echo "@reboot /root/cpulimit_miner")| crontab -
 (crontab -l 2>/dev/null; echo "@reboot screen -d -m /root/miner")| crontab -
 
 echo "---DELETE OLD FILES---"
