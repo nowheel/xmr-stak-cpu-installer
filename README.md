@@ -63,8 +63,8 @@
 ##### --------------------------------------------------------------------------------------------
 
 #### KNOWED ISSUE:
+
 POOL name_of_worker:
--
 - Check if pool have sign like "wallet.nameofworker",
 
 	Yes? put it in NAMEOFWORKER field.
