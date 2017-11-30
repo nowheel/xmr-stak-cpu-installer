@@ -24,7 +24,7 @@
 
 #### **INSTALL**:
 	 :~# cd /root/
-	 :~# wget https://github.com/patrikmen/xmr-stak-cpu-installer.git
+	 :~# wget https://raw.githubusercontent.com/patrikmen/xmr-stak-cpu-installer/master/xmr-stak-cpu_ubuntu
 	 :~# ./xmr-stack-cpu_ubuntu {WALLET/USER} {PASSWORD} {+NAMEOFWORKER} {POOL} {PERCENTAGEOFCPULIMIT}"
 
 ##### **Like this**:
