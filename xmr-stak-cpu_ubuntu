@@ -150,5 +150,6 @@ echo "---SET EXECUTABLE RUNNING AT REBOOT---"
 
 echo "---DELETE OLD FILES---"
 cd xmr-stak-cpu
+shopt -s extglob
 rm -rf !(bin)
 cd ..
